@@ -1,4 +1,5 @@
-import { useState } from 'react';
+import  { useState } from 'react';
+import { Link } from 'react-router-dom';
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -17,30 +18,30 @@ const Navbar = () => {
           isOpen ? 'flex flex-col items-end space-y-4 mt-4 md:flex-row md:space-y-0' : 'hidden md:flex'
         }`}
       >
-        <a href="#" className="text-pink-500">
+        <Link to="/" className="text-pink-500">
           Home
-        </a>
-        <a href="#" className="hover:text-pink-500">
+        </Link>
+        <Link to="/about" className="hover:text-pink-500">
           About Us
-        </a>
-        <a href="#" className="hover:text-pink-500">
+        </Link>
+        <Link to="/tracks" className="hover:text-pink-500">
           Tracks
-        </a>
-        <a href="#" className="hover:text-pink-500">
+        </Link>
+        <Link to="/timeline" className="hover:text-pink-500">
           Timeline
-        </a>
-        <a href="#" className="hover:text-pink-500">
+        </Link>
+        <Link to="/sponsors" className="hover:text-pink-500">
           Sponsors
-        </a>
-        <a href="#" className="hover:text-pink-500">
+        </Link>
+        <Link to="/faq" className="hover:text-pink-500">
           FAQ
-        </a>
-        <a href="#" className="hover:text-pink-500">
+        </Link>
+        <Link to="/teams" className="hover:text-pink-500">
           Teams
-        </a>
-        <a href="#" className="hover:text-pink-500">
+        </Link>
+        <Link to="/contacts" className="hover:text-pink-500">
           Contacts
-        </a>
+        </Link>
       </div>
       <div className="md:hidden">
         <button className="focus:outline-none" onClick={toggleMenu}>
