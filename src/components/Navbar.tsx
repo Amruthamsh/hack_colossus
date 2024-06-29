@@ -94,9 +94,6 @@ const Navbar = () => {
             <Link to="/faq" className="text-pink-500 text-lg" onClick={toggleMenu}>
               FAQ
             </Link>
-            <Link to="/teams" className="text-pink-500 text-lg" onClick={toggleMenu}>
-              Teams
-            </Link>
             <Link to="/contacts" className="text-pink-500 text-lg" onClick={toggleMenu}>
               Contacts
             </Link>
