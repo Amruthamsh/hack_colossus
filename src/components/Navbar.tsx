@@ -1,6 +1,8 @@
 import { useState } from 'react';
 import { Link } from 'react-router-dom';
-
+import drait from '../assets/dr_ait_logo.svg';
+import gdsc from '../assets/gdsc_logo.svg';
+import nglogo from '../assets/nglogo.png';
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
 
@@ -10,35 +12,35 @@ const Navbar = () => {
 
   return (
     <nav className="flex justify-between items-center py-4 px-6 bg-[#271232] md:px-12 lg:px-16">
-      <div>
-        <img src="/path-to-your-logo.png" alt="Logo" className="h-8 w-auto" />
-      </div>
+ <div className="flex items-center space-x-4">
+ <img src={drait} alt="Dr Ait" className="h-10 w-13" />
+<img src={gdsc} alt="GDSC" className="h-8 w-auto" />
+<img src={nglogo} alt="nglogo" className="h-8 w-auto" style={{ borderRadius: '50%' }} />
+  </div>
       <div className="hidden md:flex space-x-4">
-        <Link to="/" className="text-pink-500 hover:text-pink-700">
-          Home
-        </Link>
-        <Link to="/about" className="text-pink-500 hover:text-pink-700">
-          About Us
-        </Link>
-        <Link to="/tracks" className="text-pink-500 hover:text-pink-700">
-          Tracks
-        </Link>
-        <Link to="/timeline" className="text-pink-500 hover:text-pink-700">
-          Timeline
-        </Link>
-        <Link to="/sponsors" className="text-pink-500 hover:text-pink-700">
-          Sponsors
-        </Link>
-        <Link to="/faq" className="text-pink-500 hover:text-pink-700">
-          FAQ
-        </Link>
-        <Link to="/teams" className="text-pink-500 hover:text-pink-700">
-          Teams
-        </Link>
-        <Link to="/contacts" className="text-pink-500 hover:text-pink-700">
-          Contacts
-        </Link>
-      </div>
+  <Link to="/" className="text-white hover:text-pink-600 focus:text-pink-600">
+    Home
+  </Link>
+  <Link to="/about" className="text-white hover:text-pink-600 focus:text-pink-600">
+    About Us
+  </Link>
+  <Link to="/tracks" className="text-white hover:text-pink-600 focus:text-pink-600">
+    Tracks
+  </Link>
+  <Link to="/timeline" className="text-white hover:text-pink-600 focus:text-pink-600">
+    Timeline
+  </Link>
+  <Link to="/sponsors" className="text-pink-300 hover:text-pink-600 focus:text-pink-600">
+    Sponsors
+  </Link>
+  <Link to="/faq" className="text-white hover:text-pink-600 focus:text-pink-600">
+    FAQ
+  </Link>
+  
+  <Link to="/contacts" className="text-white hover:text-pink-600 focus:text-pink-600">
+    Contacts
+  </Link>
+</div>
       <div className="md:hidden">
         <button className="focus:outline-none" onClick={toggleMenu}>
           <svg

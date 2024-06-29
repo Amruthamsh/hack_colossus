@@ -7,6 +7,7 @@ import TracksPage from './components/TracksPage';
 import Timeline from './components/Timeline';
 import Contact from './components/Contact';
 import Faq from './components/Faq';
+import Sponsors from './components/Sponsors';
 
 
 const App = () => {
@@ -21,6 +22,7 @@ const App = () => {
           <Route path="/timeline" element={<Timeline />} />
           <Route path="/contacts" element={<Contact />} />
           <Route path="/faq" element={<Faq />} />
+          <Route path="/sponsors" element={<Sponsors />} />
           {/* Add other routes as needed */}
         </Routes>
         <Footer />     

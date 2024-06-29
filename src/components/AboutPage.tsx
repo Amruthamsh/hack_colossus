@@ -21,12 +21,7 @@ const AboutPage = () => {
       </div>
 
       <p className="mb-8 text-center max-w-3xl mx-auto">
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-        quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-        consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum
-        dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-        proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+      Welcome to HackColossus, a premier 24-hour national-level hackathon hosted by Dr. Ambedkar Institute of Technology, Bengaluru. In collaboration with our esteemed tech clubs, GDSC Dr. AIT and Nanogram, we bring together the brightest minds from across the country to innovate and compete in both hardware and software tracks. Our event, scheduled for August 30-31, 2024, provides a dynamic platform for participants to showcase their skills, solve real-world problems, and collaborate with like-minded peers. With an exciting prize pool of up to 1 lakh INR, HackColossus promises a thrilling and rewarding experience for all tech enthusiasts. Join us for an unforgettable journey of creativity, innovation, and excellence.
       </p>
 
       <div className="bg-white w-full h-64 flex items-center justify-center">
