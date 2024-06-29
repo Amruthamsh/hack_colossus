@@ -8,7 +8,7 @@ const Contact = () => {
       backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(${bg})`
     }}>
       <div className="w-full max-w-4xl text-white">
-        <h1 className="text-3xl sm:text-4xl font-bold mb-8">Contact Us</h1>
+        <h1 className="text-3xl sm:text-4xl font-bold mb-8">CONTACT US</h1>
         
         <div className="mb-8">
           <h2 className="text-xl font-semibold mb-2">Phone</h2>
