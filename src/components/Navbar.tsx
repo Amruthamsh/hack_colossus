@@ -18,7 +18,7 @@ const Navbar = () => {
 <img src={nglogo} alt="nglogo" className="h-10 w-auto" style={{ borderRadius: '50%' }} />
   </div>
       <div className="hidden md:flex space-x-4">
-  <Link to="/" className="text-white hover:text-pink-600 focus:text-pink-600">
+  <Link to="/" className="text-purple-500 hover:text-pink-600 focus:text-pink-600">
     Home
   </Link>
   <Link to="/about" className="text-white hover:text-pink-600 focus:text-pink-600">
