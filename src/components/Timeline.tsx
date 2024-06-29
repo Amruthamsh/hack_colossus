@@ -7,42 +7,42 @@ const Timeline = () => {
           '8:30 AM : Reporting Time and Check-in',
           '9:00 AM : Official Start of Hackathon and Opening Remarks'
         ],
-        iconColor: 'bg-yellow-400',
+        iconColor: 'bg-yellow-500',
       },
       {
         title: 'Planning and Initial Development',
         description: ['Idea Validation and Project Planning', 'Initial Coding and Prototype Development'],
-        iconColor: 'bg-orange-400',
+        iconColor: 'bg-yellow-500',
       },
       {
         title: 'Lunch Break and Midpoint Check-in',
         description: '1:00 PM - 3:00 PM : Lunch Break and Informal Check-ins',
-        iconColor: 'bg-pink-400',
+        iconColor: 'bg-yellow-500',
       },
       {
         title: 'Focused Development',
         description: '3:00 PM - 7:00 PM : Intensive Coding and Development',
-        iconColor: 'bg-red-400',
+        iconColor: 'bg-yellow-500',
       },
       {
         title: 'Dinner Break and Continued Development',
         description: '7:00 PM - 8:00 PM : Dinner Break',
-        iconColor: 'bg-purple-400',
+        iconColor: 'bg-yellow-500',
       },
       {
         title: 'Night Shift',
         description: '8:00 PM - 7:00 AM : Continued Development and Debugging',
-        iconColor: 'bg-blue-400',
+        iconColor: 'bg-yellow-500',
       },
       {
         title: 'Final Stretch and Presentation Preparation',
         description: ['7:00 AM - 8:00 AM : Breakfast and Final Preparations','8:00 AM - 9:00 AM : Project Submission and Setup for Presentations'],
-        iconColor: 'bg-green-400',
+        iconColor: 'bg-yellow-500',
       },
       {
         title: 'Presentations and Judging',
         description: ['9:00 AM - 10:30 AM : Project Presentations and Demos','10:30 AM - 11:00 AM :Judging and Awards Ceremony'],
-        iconColor: 'bg-lime-400',
+        iconColor: 'bg-yellow-500',
       },
     ];
 

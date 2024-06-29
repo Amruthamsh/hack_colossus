@@ -21,7 +21,7 @@ const TracksPage: React.FC = () => {
             <li className="whitespace-nowrap">AI</li>
           </ul>
         </TrackBox>
-        <div className="w-32 h-32 md:w-40 md:h-40 bg-pink-700 rounded-full flex items-center justify-center text-xl md:text-2xl font-bold ring-4 ring-white">
+        <div className="w-40 h-40 md:w-30 md:h-24 bg-pink-700 rounded-full flex items-center justify-center text-xl md:text-2xl font-bold ring-4 ring-black">
           TRACKS
         </div>
         <TrackBox number={2} title="HARDWARE TRACK">
@@ -44,7 +44,7 @@ const TrackBox: React.FC<TrackBoxProps> = ({ number, title, children }) => {
   return (
     <div className="relative border-2 border-black rounded-lg p-4 w-full max-w-md">
       <div className="flex items-center mb-4">
-        <div className="w-10 h-10 md:w-12 md:h-12 rounded-full flex items-center justify-center text-lg md:text-xl font-bold bg-white text-black">
+        <div className="w-10 h-10 md:w-12 md:h-12 rounded-full flex items-center justify-center text-lg md:text-xl font-bold bg-pink-700 border-2 border-black  text-white">
           {number}
         </div>
         <h2 className="ml-4 text-lg md:text-xl font-bold text-white">{title}</h2>

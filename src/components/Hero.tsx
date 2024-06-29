@@ -50,12 +50,12 @@ const Hero: React.FC = () => {
         )}
       </div>
       <div className="max-w-2xl mx-auto">
-        <img src={hack_logo} alt="Hack Colossus Logo" className="mx-auto mb-8" />
+        <img src={hack_logo} alt="Hack Colossus Logo" className="mx-auto mb-2" />
         <h1 className="text-6xl font-bold leading-tight mb-4 text-white">HACK-COLOSSUS</h1>
         <h3 className="text-3xl leading-tight text-white">Hack The Universe</h3>
         <div className="flex justify-center items-center mt-2">
   <p className="text-xl text-yellow-300">Prize Pool: 2 Lakhs</p>
-  <button className="ml-4 px-6 py-2 bg-purple-800 text-white font-bold rounded hover:bg-purple-900 transition duration-300">Register Now</button>
+  <button className="mt-4 mx-2 px-6 py-2 mb-4 bg-purple-800 text-white font-bold rounded hover:bg-purple-900 transition duration-300">Register Now</button>
 </div>
       </div>
     </header>

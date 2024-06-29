@@ -1,11 +1,14 @@
 import { FaInstagram, FaTumblr, FaPinterest, FaFacebook } from 'react-icons/fa';
+import bg from '../assets/background.svg';
 
 const Contact = () => {
   return (
     <div className="bg-gradient-to-b min-h-screen flex items-center justify-center p-6 sm:p-10"
-         style={{ backgroundImage: "url('../assets/background.svg')", backgroundSize: "cover", backgroundPosition: "center" }}>
+    style={{
+      backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(${bg})`
+    }}>
       <div className="w-full max-w-4xl text-white">
-        <h1 className="text-3xl sm:text-4xl font-bold mb-8">Contact</h1>
+        <h1 className="text-3xl sm:text-4xl font-bold mb-8">Contact Us</h1>
         
         <div className="mb-8">
           <h2 className="text-xl font-semibold mb-2">Phone</h2>

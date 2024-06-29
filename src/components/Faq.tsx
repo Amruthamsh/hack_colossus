@@ -21,7 +21,7 @@ const Faq = () => {
           <div className="flex flex-col sm:flex-row justify-between space-y-6 sm:space-y-0 sm:space-x-6">
             {faqs.map((faq, index) => (
               <div key={index} className="bg-white rounded-lg shadow-lg overflow-hidden flex flex-col w-full sm:w-1/3 h-80">
-                <div className="bg-gray-300 p-4 h-1/2 flex items-center">
+                <div className="bg-pink-200 p-4 h-1/2 flex items-center">
                   <h2 className="text-lg font-semibold text-gray-800">{faq.question}</h2>
                 </div>
                 <div className="p-4 h-1/2 bg-white text-black flex items-center">

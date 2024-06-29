@@ -13,9 +13,9 @@ const Navbar = () => {
   return (
     <nav className="flex justify-between items-center py-4 px-6 bg-[#271232] md:px-12 lg:px-16">
  <div className="flex items-center space-x-4">
- <img src={drait} alt="Dr Ait" className="h-10 w-13" />
-<img src={gdsc} alt="GDSC" className="h-8 w-auto" />
-<img src={nglogo} alt="nglogo" className="h-8 w-auto" style={{ borderRadius: '50%' }} />
+ <img src={drait} alt="Dr Ait" className="h-12 w-13" />
+<img src={gdsc} alt="GDSC" className="h-12 w-auto" />
+<img src={nglogo} alt="nglogo" className="h-10 w-auto" style={{ borderRadius: '50%' }} />
   </div>
       <div className="hidden md:flex space-x-4">
   <Link to="/" className="text-white hover:text-pink-600 focus:text-pink-600">
@@ -30,7 +30,7 @@ const Navbar = () => {
   <Link to="/timeline" className="text-white hover:text-pink-600 focus:text-pink-600">
     Timeline
   </Link>
-  <Link to="/sponsors" className="text-pink-300 hover:text-pink-600 focus:text-pink-600">
+  <Link to="/sponsors" className="text-white hover:text-pink-600 focus:text-pink-600">
     Sponsors
   </Link>
   <Link to="/faq" className="text-white hover:text-pink-600 focus:text-pink-600">
