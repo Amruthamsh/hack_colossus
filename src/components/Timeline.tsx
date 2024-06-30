@@ -7,42 +7,42 @@ const Timeline = () => {
           '8:30 AM : Reporting Time and Check-in',
           '9:00 AM : Official Start of Hackathon and Opening Remarks'
         ],
-        iconColor: 'bg-purple-900',
+        iconColor: 'bg-yellow-600',
       },
       {
         title: 'Planning and Initial Development',
         description: ['Idea Validation and Project Planning', 'Initial Coding and Prototype Development'],
-        iconColor: 'bg-purple-900',
+        iconColor: 'bg-yellow-600',
       },
       {
         title: 'Lunch Break and Midpoint Check-in',
         description: '1:00 PM - 3:00 PM : Lunch Break and Informal Check-ins',
-        iconColor: 'bg-purple-900',
+        iconColor: 'bg-yellow-600',
       },
       {
         title: 'Focused Development',
         description: '3:00 PM - 7:00 PM : Intensive Coding and Development',
-        iconColor: 'bg-purple-900',
+        iconColor: 'bg-yellow-600',
       },
       {
         title: 'Dinner Break and Continued Development',
         description: '7:00 PM - 8:00 PM : Dinner Break',
-        iconColor: 'bg-purple-900',
+        iconColor: 'bg-yellow-600',
       },
       {
         title: 'Night Shift',
         description: '8:00 PM - 7:00 AM : Continued Development and Debugging',
-        iconColor: 'bg-purple-900',
+        iconColor: 'bg-yellow-600',
       },
       {
         title: 'Final Stretch and Presentation Preparation',
         description: ['7:00 AM - 8:00 AM : Breakfast and Final Preparations','8:00 AM - 9:00 AM : Project Submission and Setup for Presentations'],
-        iconColor: 'bg-purple-900',
+        iconColor: 'bg-yellow-600',
       },
       {
         title: 'Presentations and Judging',
         description: ['9:00 AM - 10:30 AM : Project Presentations and Demos','10:30 AM - 11:00 AM :Judging and Awards Ceremony'],
-        iconColor: 'bg-purple-900',
+        iconColor: 'bg-yellow-600',
       },
     ];
 
@@ -57,7 +57,7 @@ const Timeline = () => {
                     {index + 1}
                   </div>
                   <div className="ml-4 text-white">
-                    <h2 className="text-lg sm:text-xl text-purple-800 font-semibold">{event.title}</h2>
+                    <h2 className="text-lg sm:text-xl text-yellow-500 font-semibold">{event.title}</h2>
                     {Array.isArray(event.description) ? (
                       event.description.map((desc, i) => (
                         <p key={i} className="text-xs sm:text-sm text-white">{desc}</p>
