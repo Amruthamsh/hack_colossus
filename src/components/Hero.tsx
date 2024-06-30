@@ -46,15 +46,15 @@ const Hero: React.FC = () => {
 
   return (
     <header
-      className="flex flex-col items-center justify-center min-h-screen text-center bg-cover bg-center relative"
+      className="flex flex-col items-center justify-center  text-center bg-cover bg-center relative"
       style={{
         backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(${bg})`,
       }}
     >
       <div className="mb-4">
         {Object.keys(timeLeft).length > 0 ? (
-          <h2 className="text-xl md:text-2xl rounded-lg text-white font-bold bg-purple-700 inline-flex items-center">
-            <FaClock />
+          <h2 className="text-xl md:text-2xl mt-3 rounded-lg text-white font-bold bg-[#48064E] inline-flex items-center mx-2 p-2">
+           <FaClock className="h-10 w-10 mr-2 text-white" />
             {timeLeft.hasOwnProperty("days") &&
               (timeLeft as TimeLeft).days}{" "}
             days{" "}

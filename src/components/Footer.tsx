@@ -1,10 +1,10 @@
 const Footer = () => {
   return (
     <footer className="bg-[#271232] py-16">
-      <div className="container mx-auto flex flex-col justify-between items-center space-y-4">
-        <div className="flex flex-col items-center">
+      <div className="container mx-auto flex flex-col md:flex-row justify-between items-center space-y-4 md:space-y-0">
+        <div className="flex items-center">
           <svg
-            className="w-8 h-8 mb-2"
+            className="w-8 h-8 mr-2"
             fill="none"
             stroke="currentColor"
             viewBox="0 0 24 24"
@@ -23,9 +23,9 @@ const Footer = () => {
           </div>
         </div>
 
-        <div className="flex flex-col items-center">
+        <div className="flex items-center">
           <svg
-            className="w-8 h-8 mb-2"
+            className="w-8 h-8 mr-2"
             fill="none"
             stroke="currentColor"
             viewBox="0 0 24 24"
@@ -44,9 +44,9 @@ const Footer = () => {
           </div>
         </div>
 
-        <div className="flex flex-col items-center">
+        <div className="flex items-center">
           <svg
-            className="w-8 h-8 mb-2"
+            className="w-8 h-8 mr-2"
             fill="none"
             stroke="currentColor"
             viewBox="0 0 24 24"
