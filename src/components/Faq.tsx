@@ -1,16 +1,16 @@
 const Faq = () => {
     const faqs = [
       {
-        question: 'What is the advantage of hiring a consultant instead of doing it in-house?',
-        answer: 'Having an FAQ section is a great way to present information about your product or service. Using the question-and-answer format makes it more relatable to your users.',
+        question: 'Are there any restrictions on the types of technologies or frameworks we can use?',
+        answer: 'No, you can use any technology or framework you want.',  
       },
       {
-        question: 'What kind of deliverables are to be expected?',
-        answer: 'Having an FAQ section is a great way to present information about your product or service. Using the question-and-answer format makes it more relatable to your users.',
+        question: 'What are the tracks for the hackathon?',
+        answer: 'We have only two tracks, one for Hardware and one for Software. You can choose any of the tracks to participate in the hackathon.',
       },
       {
-        question: 'How long will the project take and how long until results can be measured?',
-        answer: 'Having an FAQ section is a great way to present information about your product or service. Using the question-and-answer format makes it more relatable to your users.',
+        question: 'Can we use external hardware like IoT devices or VR headsets in our project?',
+        answer: 'Participants are allowed to use any hardware they want in their projects. However, they must bring their own hardware to the hackathon. We will not be providing any hardware to the participants.',
       },
     ];
   
