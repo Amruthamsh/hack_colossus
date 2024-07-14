@@ -85,7 +85,8 @@ const Hero: React.FC = () => {
         </h3>
         <div className="flex justify-center items-center mt-2">
           <p className="text-xl text-yellow-300">Prize Pool: Upto Rs. 1 Lakh</p>
-          <button className="mt-4 mx-2 px-6 py-2 mb-4 bg-purple-800 text-white font-bold rounded hover:bg-purple-900 transition duration-300">
+          <button className="mt-4 mx-2 px-6 py-2 mb-4 bg-purple-800 text-white font-bold rounded hover:bg-purple-900 transition duration-300"
+          onClick={() => window.open('https://github.com/heysagnik/Linkees', '_blank')}>
             Register Now
           </button>
         </div>
