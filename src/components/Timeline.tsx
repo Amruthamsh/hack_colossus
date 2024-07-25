@@ -47,31 +47,44 @@ const Timeline = () => {
     ];
 
     return (
-        <div className="bg-gradient-to-b min-h-screen flex items-center justify-center p-6 sm:p-10">
-          <div className="w-full max-w-2xl">
-            <h1 className="text-center text-3xl sm:text-4xl font-bold text-white mb-6 sm:mb-8">TIMELINE</h1>
-            <div className="relative">
-              {events.map((event, index) => (
-                <div key={index} className="mb-6 sm:mb-8 flex items-start">
-                  <div className={`w-8 h-8 sm:w-10 sm:h-10 rounded-full ${event.iconColor} flex-shrink-0 flex items-center justify-center text-white font-bold`}>
-                    {index + 1}
-                  </div>
-                  <div className="ml-4 text-white">
-                    <h2 className="text-lg sm:text-xl text-yellow-500 font-semibold">{event.title}</h2>
-                    {Array.isArray(event.description) ? (
-                      event.description.map((desc, i) => (
-                        <p key={i} className="text-xs sm:text-sm text-white">{desc}</p>
-                      ))
-                    ) : (
-                      <p className="text-xs sm:text-sm text-white">{event.description}</p>
-                    )}
-                  </div>
+      <div
+        className="bg-gradient-to-b min-h-screen flex items-center justify-center p-6 sm:p-10"
+        id="timeline"
+      >
+        <div className="w-full max-w-2xl">
+          <h1 className="text-center text-3xl sm:text-4xl font-bold text-white mb-6 sm:mb-8 pt-8">
+            TIMELINE
+          </h1>
+          <div className="relative">
+            {events.map((event, index) => (
+              <div key={index} className="mb-6 sm:mb-8 flex items-start">
+                <div
+                  className={`w-8 h-8 sm:w-10 sm:h-10 rounded-full ${event.iconColor} flex-shrink-0 flex items-center justify-center text-white font-bold`}
+                >
+                  {index + 1}
                 </div>
-              ))}
-            </div>
+                <div className="ml-4 text-white">
+                  <h2 className="text-lg sm:text-xl text-yellow-500 font-semibold">
+                    {event.title}
+                  </h2>
+                  {Array.isArray(event.description) ? (
+                    event.description.map((desc, i) => (
+                      <p key={i} className="text-xs sm:text-sm text-white">
+                        {desc}
+                      </p>
+                    ))
+                  ) : (
+                    <p className="text-xs sm:text-sm text-white">
+                      {event.description}
+                    </p>
+                  )}
+                </div>
+              </div>
+            ))}
           </div>
         </div>
-      );
+      </div>
+    );
 };
 
 export default Timeline;

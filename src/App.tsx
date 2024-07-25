@@ -1,4 +1,4 @@
-import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import { BrowserRouter as Router } from 'react-router-dom';
 import Navbar from "./components/Navbar";
 import Hero from "./components/Hero";
 import Footer from "./components/Footer";
@@ -14,18 +14,15 @@ const App = () => {
   return (
     <Router>
       <div className="min-h-screen bg-gradient-to-r from-[#4B0550] to-[#1F1933] text-white">
-        <Navbar />
-        <Routes>
-          <Route path="/" element={<Hero />} />
-          <Route path="/about" element={<AboutPage />} />
-          <Route path="/tracks" element={<TracksPage />} />
-          <Route path="/timeline" element={<Timeline />} />
-          <Route path="/contacts" element={<Contact />} />
-          <Route path="/faq" element={<Faq />} />
-          <Route path="/sponsors" element={<Sponsors />} />
-          {/* Add other routes as needed */}
-        </Routes>
-        <Footer />     
+        <Navbar/>
+        <Hero />
+        <AboutPage />
+        <TracksPage />
+        <Timeline />
+        <Sponsors />
+        <Faq />
+        <Contact />
+        <Footer />
       </div>
     </Router>
   );
