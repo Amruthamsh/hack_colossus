@@ -3,11 +3,6 @@ import hack_logo from "../assets/hackathon_logo.svg";
 import bg from "../assets/background.svg";
 import { FaClock } from "react-icons/fa";
 
-<link
-  rel="stylesheet"
-  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
-/>;
-
 // Define a type for the time left object
 type TimeLeft = {
   days: number;
@@ -45,16 +40,17 @@ const Hero: React.FC = () => {
   });
 
   return (
-    <header
-      className="flex flex-col items-center justify-center  text-center bg-cover bg-center relative"
+    <div
+      className="flex flex-col items-center justify-center text-center bg-cover bg-center relative"
       style={{
         backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(${bg})`,
       }}
+      id="home"
     >
-      <div className="mb-4">
+      <div className="mb-4 relative z-10 mt-24">
         {Object.keys(timeLeft).length > 0 ? (
           <h2 className="text-xl md:text-2xl mt-3 rounded-lg text-white font-bold bg-[#48064E] inline-flex items-center mx-2 p-2">
-           <FaClock className="h-10 w-10 mr-2 text-white" />
+            <FaClock className="h-10 w-10 mr-2 text-white" />
             {timeLeft.hasOwnProperty("days") &&
               (timeLeft as TimeLeft).days}{" "}
             days{" "}
@@ -85,13 +81,17 @@ const Hero: React.FC = () => {
         </h3>
         <div className="flex justify-center items-center mt-2">
           <p className="text-xl text-yellow-300">Prize Pool: Upto Rs. 1 Lakh</p>
-          <button className="mt-4 mx-2 px-6 py-2 mb-4 bg-purple-800 text-white font-bold rounded hover:bg-purple-900 transition duration-300"
-          onClick={() => window.open('https://github.com/heysagnik/Linkees', '_blank')}>
+          <button
+            className="mt-4 mx-2 px-6 py-2 mb-4 bg-purple-800 text-white font-bold rounded hover:bg-purple-900 transition duration-300"
+            onClick={() =>
+              window.open("https://github.com/heysagnik/Linkees", "_blank")
+            }
+          >
             Register Now
           </button>
         </div>
       </div>
-    </header>
+    </div>
   );
 };
 

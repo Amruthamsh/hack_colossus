@@ -8,7 +8,10 @@ interface TrackBoxProps {
 
 const TracksPage: React.FC = () => {
   return (
-    <div className="min-h-screen text-white p-8 flex justify-center items-center bg-gradient-to-r ">
+    <div
+      className="min-h-screen text-white p-8 flex justify-center items-center bg-gradient-to-r "
+      id="tracks"
+    >
       <div className="relative flex flex-col md:flex-row items-center justify-center space-x-0 md:space-x-8 space-y-8 md:space-y-0">
         <TrackBox number={1} title="SOFTWARE TRACK">
           <ul className="list-disc pl-5 space-y-2">
@@ -16,7 +19,9 @@ const TracksPage: React.FC = () => {
             <li className="whitespace-nowrap">SECURITY AND PRIVACY</li>
             <li className="whitespace-nowrap">INTELLIGENT SYSTEMS</li>
             <li className="whitespace-nowrap">DATA SCIENCE AND ANALYTICS</li>
-            <li className="whitespace-nowrap">COLLABORATION AND PRODUCTIVITY TOOLS</li>
+            <li className="whitespace-nowrap">
+              COLLABORATION AND PRODUCTIVITY TOOLS
+            </li>
             <li className="whitespace-nowrap">BLOCKCHAIN</li>
             <li className="whitespace-nowrap">AI</li>
           </ul>
@@ -31,7 +36,9 @@ const TracksPage: React.FC = () => {
             <li className="whitespace-nowrap">WEARABLE TECHNOLOGY</li>
             <li className="whitespace-nowrap">ROBOTICS AND AUTOMATION</li>
             <li className="whitespace-nowrap">DRONE TECHNOLOGY</li>
-            <li className="whitespace-nowrap">ELECTRONICS AND CIRCUIT DESIGN</li>
+            <li className="whitespace-nowrap">
+              ELECTRONICS AND CIRCUIT DESIGN
+            </li>
             <li className="list-none">&nbsp;</li> {/* Empty column */}
           </ul>
         </TrackBox>
