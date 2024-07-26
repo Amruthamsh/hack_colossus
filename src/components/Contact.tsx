@@ -7,7 +7,7 @@ const Contact = () => {
       id="contacts"
     >
       <div className="w-full max-w-4xl text-white">
-        <h1 className="text-2xl font-bold mb-8 text-center text-white">
+        <h1 className="text-xl font-bold mb-8 text-center text-white">
           CONTACT US
         </h1>
 

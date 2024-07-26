@@ -2,6 +2,7 @@ import React, { useEffect, useState } from "react";
 import hack_logo from "../assets/hackathon_logo.svg";
 import bg from "../assets/background.svg";
 import { FaClock } from "react-icons/fa";
+import StarsCanvas from "./StarBackground";
 
 // Define a type for the time left object
 type TimeLeft = {
@@ -47,9 +48,9 @@ const Hero: React.FC = () => {
       }}
       id="home"
     >
-      <div className="mb-4 relative z-10 mt-24">
+      <div className="mb-4 relative mt-24 z-10">
         {Object.keys(timeLeft).length > 0 ? (
-          <h2 className="text-xl md:text-2xl mt-3 rounded-lg text-white font-bold bg-pink-800 inline-flex items-center mx-2 p-3 px-6">
+          <h2 className="text-xl md:text-2xl mt-3 rounded-lg text-white font-bold bg-purple-900 inline-flex items-center mx-2 p-3 px-6">
             <FaClock className="h-10 w-10 mr-2 text-white" />
             {timeLeft.hasOwnProperty("days") &&
               (timeLeft as TimeLeft).days}{" "}
@@ -79,12 +80,12 @@ const Hero: React.FC = () => {
         <h3 className="text-3xl leading-tight text-white">
           Time To Create History !!
         </h3>
-        <div className="flex justify-center items-center mt-2">
+        <div className="flex flex-col justify-center items-center mt-2">
           <p className="text-xl font-bold text-teal-400">
             Prize Pool: Upto Rs. 1 Lakh
           </p>
           <button
-            className="mt-4 mx-2 px-4 py-2 mb-4 text-xl bg-pink-700 text-white font-bold rounded"
+            className="mt-4 mx-2 px-6 py-2 mb-4 hover:bg-pink-700 text-xl text-white font-bold rounded bg-purple-900 transition duration-300"
             onClick={() =>
               window.open("https://github.com/heysagnik/Linkees", "_blank")
             }

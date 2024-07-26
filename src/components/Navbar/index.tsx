@@ -8,7 +8,7 @@ import { navLinks } from "@/constants";
 const Navbar = () => {
   return (
     <div className="mx-3 flex justify-center">
-      <nav className="fixed z-[60] w-full bg-teal-800/80 bg-clip-padding px-5 py-2 backdrop-blur-lg backdrop-filter ">
+      <nav className="fixed z-[60] w-full bg-teal-800/60 bg-clip-padding px-5 py-2 backdrop-blur-lg backdrop-filter ">
         <div className="flex h-16 items-center justify-between px-4">
           <Link
             to={"/#home"}

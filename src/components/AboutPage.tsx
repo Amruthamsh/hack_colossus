@@ -1,3 +1,5 @@
+import bgcollege from "../assets/bgcollege.jpeg";
+
 const AboutPage = () => {
   return (
     <div className="container mx-auto px-4 pt-24" id="about">
@@ -56,9 +58,7 @@ const AboutPage = () => {
         </ul>
       </div>
 
-      <div className="bg-white w-full h-64 flex items-center justify-center">
-        <span className="text-gray-400">Image Placeholder</span>
-      </div>
+      <img src={bgcollege} alt="Hack Colossus Logo" />
     </div>
   );
 };

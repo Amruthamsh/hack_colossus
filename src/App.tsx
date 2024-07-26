@@ -1,3 +1,4 @@
+// App.js
 import { BrowserRouter as Router } from "react-router-dom";
 import Navbar from "./components/Navbar";
 import Hero from "./components/Hero";
@@ -8,25 +9,24 @@ import Timeline from "./components/Timeline";
 import Contact from "./components/Contact";
 import Faq from "./components/Faq";
 import Sponsors from "./components/Sponsors";
-import StarBackground from "./components/StarBackground";
+import StarsCanvas from "./components/StarBackground";
 
-import bg from "./assets/background.svg";
-//from-[#4B0550] to-[#1F1933]
 const App = () => {
   return (
     <Router>
-      <div className="min-h-screen bg-gradient-to-br from-slate-950 to-purple-950 text-white">
-        <Navbar />
-        <Hero />
-        <AboutPage />
-        <TracksPage />
-        <Timeline />
-        <Sponsors />
-        <Faq />
-
-        <Footer />
-        <Contact />
-        <StarBackground />
+      <div className="min-h-screen bg-gradient-to-br from-slate-950 to-purple-950 text-white relative z-10">
+        <StarsCanvas />
+        <div className="relative z-20">
+          <Navbar />
+          <Hero />
+          <AboutPage />
+          <TracksPage />
+          <Timeline />
+          <Sponsors />
+          <Faq />
+          <Footer />
+          <Contact />
+        </div>
       </div>
     </Router>
   );

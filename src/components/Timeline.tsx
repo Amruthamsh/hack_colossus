@@ -72,7 +72,10 @@ const Timeline = () => {
       </h1>
       <div className="w-full max-w-7xl grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
         {events.map((event, index) => (
-          <div key={index} className="bg-gray-100/10 p-6 rounded-lg shadow-lg">
+          <div
+            key={index}
+            className="bg-gray-100/10 p-6 rounded-lg shadow-lg transition-transform transform hover:scale-105 hover:shadow-xl hover:bg-gray-800/40"
+          >
             <div
               className={`w-12 h-12 rounded-full bg-green-600 flex items-center justify-center text-white text-xl mb-4`}
             >

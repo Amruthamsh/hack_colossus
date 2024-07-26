@@ -5,10 +5,9 @@ const Sponsors = () => {
       id="sponsors"
     >
       <h1 className="text-4xl text-white font-bold mb-8">
-        We are looking for Sponsors{" "}
+        We are looking for Sponsors!
       </h1>
-      <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
-        {/* Example Sponsor Logos */}
+      {/* Example Sponsor Logos 
         <div className="bg-white p-4 rounded-lg flex items-center justify-center">
           <img
             src="/path-to-sponsor-logo1.png"
@@ -37,7 +36,16 @@ const Sponsors = () => {
             className="h-12 w-auto"
           />
         </div>
-        {/* Add more sponsors as needed */}
+        Add more sponsors as needed */}
+      <div className="text-center">
+        <p className="text-2xl pb-2">If interested, please contact: </p>
+
+        <p className="text-xl ">
+          Varun Raj: <span className="text-green-400 ml-2">+919353228225</span>
+        </p>
+        <p className="text-xl">
+          Aniket Rai: <span className="text-green-400 ml-2">+917718411467</span>
+        </p>
       </div>
     </div>
   );

@@ -20,21 +20,21 @@ const Faq = () => {
 
   return (
     <div
-      className="flex items-center justify-center p-6 pt-24 sm:p-10 sm:pt-24 bg-gray-900 m-10 rounded-3xl"
+      className="flex items-center justify-center p-6 pt-24 sm:p-10 sm:pt-24 bg-gray-900/80 m-10 rounded-3xl"
       id="faq"
     >
       <div className="w-full max-w-5xl text-white">
-        <h1 className="text-center text-3xl sm:text-4xl font-bold mb-8 text-white">
+        <h1 className="text-center text-3xl sm:text-4xl font-bold mb-8">
           FAQs
         </h1>
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
           {faqs.map((faq, index) => (
             <div
               key={index}
-              className="bg-purple-500/20 rounded-3xl shadow-lg overflow-hidden flex flex-col hover:shadow-xl transition-shadow duration-300"
+              className="bg-purple-500/20 rounded-3xl shadow-lg overflow-hidden flex flex-col hover:scale-105 hover:shadow-xl hover:bg-purple-500/30 transition-transform transition-shadow duration-300"
             >
               <div className="p-6 flex items-center justify-center overflow-auto">
-                <h2 className="text-lg sm:text-xl font-semibold sm:h-20 text-green-400 text-left">
+                <h2 className="text-lg sm:text-xl font-semibold text-green-400 text-left">
                   {faq.question}
                 </h2>
               </div>

@@ -13,7 +13,7 @@ const MobileNavbar = () => {
         <button
           onClick={() => setIsOpen(!isOpen)}
           aria-label="Toggle Menu"
-          className="inline-flex items-center justify-center rounded-full p-2 text-white hover:text-gray-400 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-gray-300/20"
+          className="inline-flex items-center justify-center rounded-full text-white hover:text-gray-400 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-gray-300/20"
         >
           {isOpen ? (
             <IoMdClose className="h-6 w-6" />
@@ -31,7 +31,7 @@ const MobileNavbar = () => {
         } px-2 lg:hidden`}
       >
         <div
-          className={`justify-center" z-[60] w-full flex flex-col space-y-3 rounded-xl border border-white/30 bg-white/5 bg-clip-padding py-5 backdrop-blur-lg 
+          className={`justify-center" z-[60] w-full flex flex-col space-y-3 rounded-xl bg-teal-800/80 bg-clip-padding py-5 backdrop-blur-lg 
                backdrop-filter hover:border-white/40 lg:hidden 
             `}
         >
