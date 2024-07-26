@@ -1,8 +1,6 @@
-
-
 const AboutPage = () => {
   return (
-    <div className="container mx-auto px-4 py-8" id="about">
+    <div className="container mx-auto px-4 pt-24" id="about">
       <h1 className="text-4xl font-bold text-center mb-12">ABOUT US</h1>
 
       <div className="flex justify-between mb-12">
@@ -19,20 +17,44 @@ const AboutPage = () => {
           <p className="text-sm">REACH ON SOCIAL MEDIA</p>
         </div>
       </div>
-
-      <p className="mb-8 text-center max-w-3xl mx-auto">
-        Welcome to HackColossus, a premier 24-hour national-level hackathon
-        hosted by Dr. Ambedkar Institute of Technology, Bengaluru. In
-        collaboration with our esteemed tech clubs, GDSC Dr. AIT and Nanogram,
-        we bring together the brightest minds from across the country to
-        innovate and compete in both hardware and software tracks. Our event,
-        scheduled for August 30-31, 2024, provides a dynamic platform for
-        participants to showcase their skills, solve real-world problems, and
-        collaborate with like-minded peers. With an exciting prize pool of up to
-        1 lakh INR, HackColossus promises a thrilling and rewarding experience
-        for all tech enthusiasts. Join us for an unforgettable journey of
-        creativity, innovation, and excellence.
-      </p>
+      <div className="mb-8 max-w-4xl mx-auto text-xl space-y-6 text-center">
+        <ul className=" list-inside space-y-4 text-left ">
+          <li className="relative pl-6">
+            <span className="absolute -left-2 -top-3 text-5xl">•</span>
+            <span>
+              Welcome to HackColossus, a premier 24-hour national-level
+              hackathon hosted by Dr. Ambedkar Institute of Technology,
+              Bengaluru.
+            </span>
+          </li>
+          <li className="relative pl-6">
+            <span className="absolute -left-2 -top-3 text-5xl">•</span>
+            <span>
+              In collaboration with our esteemed tech clubs, GDSC Dr. AIT and
+              Nanogram, we bring together the brightest minds from across the
+              country to innovate and compete in both hardware and software
+              tracks.
+            </span>
+          </li>
+          <li className="relative pl-6">
+            <span className="absolute -left-2 -top-3 text-5xl">•</span>
+            <span>
+              Our event, scheduled for August 30-31, 2024, provides a dynamic
+              platform for participants to showcase their skills, solve
+              real-world problems, and collaborate with like-minded peers.
+            </span>
+          </li>
+          <li className="relative pl-6">
+            <span className="absolute -left-2 -top-3 text-5xl">•</span>
+            <span>
+              With an exciting prize pool of up to 1 lakh INR, HackColossus
+              promises a thrilling and rewarding experience for all tech
+              enthusiasts. Join us for an unforgettable journey of creativity,
+              innovation, and excellence.
+            </span>
+          </li>
+        </ul>
+      </div>
 
       <div className="bg-white w-full h-64 flex items-center justify-center">
         <span className="text-gray-400">Image Placeholder</span>

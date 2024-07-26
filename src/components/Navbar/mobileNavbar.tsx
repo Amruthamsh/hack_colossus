@@ -9,7 +9,7 @@ const MobileNavbar = () => {
   const [isOpen, setIsOpen] = useState(false);
   return (
     <>
-      <div className="fixed right-5 mt-7 z-[60] flex items-center space-x-4 lg:hidden">
+      <div className="fixed right-12 mt-8 z-[60] flex items-center space-x-4 lg:hidden">
         <button
           onClick={() => setIsOpen(!isOpen)}
           aria-label="Toggle Menu"
