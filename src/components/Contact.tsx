@@ -1,4 +1,11 @@
-import { FaInstagram, FaTumblr, FaPinterest, FaFacebook } from "react-icons/fa";
+import {
+  FaInstagram,
+  FaTumblr,
+  FaPinterest,
+  FaFacebook,
+  FaLinkedin,
+  FaYoutube,
+} from "react-icons/fa";
 
 const Contact = () => {
   return (
@@ -7,7 +14,7 @@ const Contact = () => {
       id="contacts"
     >
       <div className="w-full max-w-4xl text-white">
-        <h1 className="text-xl font-bold mb-8 text-center text-white">
+        <h1 className="text-3xl font-bold mb-8 text-center text-white">
           CONTACT US
         </h1>
 
@@ -45,17 +52,29 @@ const Contact = () => {
           <div>
             <h2 className="text-xl font-semibold mb-4">Social</h2>
             <div className="flex justify-start space-x-6 text-2xl ">
-              <a href="#" className="text-green-400 hover:text-pink-600">
+              <a
+                href="https://www.instagram.com/hackcolossus/"
+                className="text-green-400 hover:text-pink-600"
+              >
                 <FaInstagram />
               </a>
-              <a href="#" className="text-green-400 hover:text-pink-600">
+              <a
+                href="https://x.com/hackcolossus"
+                className="text-green-400 hover:text-pink-600"
+              >
                 <FaTumblr />
               </a>
-              <a href="#" className="text-green-400 hover:text-pink-600">
-                <FaPinterest />
+              <a
+                href="https://www.linkedin.com/company/hackcolossus"
+                className="text-green-400 hover:text-pink-600"
+              >
+                <FaLinkedin />
               </a>
-              <a href="#" className="text-green-400 hover:text-pink-600">
-                <FaFacebook />
+              <a
+                href="https://www.youtube.com/channel/UCP4VgBr2hBXLdGRY_kT6X-Q"
+                className="text-green-400 hover:text-pink-600"
+              >
+                <FaYoutube />
               </a>
             </div>
           </div>

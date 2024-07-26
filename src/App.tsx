@@ -10,11 +10,12 @@ import Contact from "./components/Contact";
 import Faq from "./components/Faq";
 import Sponsors from "./components/Sponsors";
 import StarsCanvas from "./components/StarBackground";
+import BackToTopButton from "./components/BackToTopButton";
 
 const App = () => {
   return (
     <Router>
-      <div className="min-h-screen bg-gradient-to-br from-slate-950 to-purple-950 text-white relative z-10">
+      <div className="min-h-screen bg-gradient-to-br from-black to-purple-950 text-white relative z-10">
         <StarsCanvas />
         <div className="relative z-20">
           <Navbar />
@@ -26,6 +27,7 @@ const App = () => {
           <Faq />
           <Footer />
           <Contact />
+          <BackToTopButton />
         </div>
       </div>
     </Router>

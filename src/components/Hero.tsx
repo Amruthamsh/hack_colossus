@@ -2,6 +2,7 @@ import React, { useEffect, useState } from "react";
 import hack_logo from "../assets/hackathon_logo.svg";
 import bg from "../assets/background.svg";
 import { FaClock } from "react-icons/fa";
+import RegisterButton from "./RegisterButton";
 
 // Define a type for the time left object
 type TimeLeft = {
@@ -42,9 +43,6 @@ const Hero: React.FC = () => {
   return (
     <div
       className="flex flex-col items-center justify-center text-center bg-cover bg-center relative"
-      style={{
-        backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(${bg})`,
-      }}
       id="home"
     >
       <div className="mb-4 relative mt-24 z-10">
@@ -83,14 +81,7 @@ const Hero: React.FC = () => {
           <p className="text-xl font-bold text-teal-400">
             Prize Pool: Upto Rs. 1 Lakh
           </p>
-          <button
-            className="mt-4 mx-2 px-6 py-2 mb-4 hover:bg-pink-700 text-xl text-white font-bold rounded bg-purple-900 transition duration-300"
-            onClick={() =>
-              window.open("https://github.com/heysagnik/Linkees", "_blank")
-            }
-          >
-            Register Now
-          </button>
+          <RegisterButton />
         </div>
       </div>
     </div>

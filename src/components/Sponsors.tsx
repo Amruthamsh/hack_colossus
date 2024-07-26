@@ -4,7 +4,7 @@ const Sponsors = () => {
       className="flex flex-col items-center justify-center pt-24"
       id="sponsors"
     >
-      <h1 className="text-4xl text-white font-bold mb-8">
+      <h1 className="text-4xl text-white font-bold mb-8 text-center">
         We are looking for Sponsors!
       </h1>
       {/* Example Sponsor Logos 

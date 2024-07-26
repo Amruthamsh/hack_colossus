@@ -1,3 +1,5 @@
+import RegisterButton from "./RegisterButton";
+
 const Faq = () => {
   const faqs = [
     {
@@ -19,31 +21,31 @@ const Faq = () => {
   ];
 
   return (
-    <div
-      className="flex items-center justify-center p-6 pt-24 sm:p-10 sm:pt-24 bg-gray-900/80 m-10 rounded-3xl"
-      id="faq"
-    >
-      <div className="w-full max-w-5xl text-white">
-        <h1 className="text-center text-3xl sm:text-4xl font-bold mb-8">
-          FAQs
-        </h1>
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
-          {faqs.map((faq, index) => (
-            <div
-              key={index}
-              className="bg-purple-500/20 rounded-3xl shadow-lg overflow-hidden flex flex-col hover:scale-105 hover:shadow-xl hover:bg-purple-500/30 transition-transform transition-shadow duration-300"
-            >
-              <div className="p-6 flex items-center justify-center overflow-auto">
-                <h2 className="text-lg sm:text-xl font-semibold text-green-400 text-left">
-                  {faq.question}
-                </h2>
+    <div id="faq">
+      <div className="flex items-center justify-center p-6 pt-24 sm:p-10 sm:pt-24 ">
+        <div className="w-full max-w-5xl text-white">
+          <h1 className="text-center text-4xl font-bold mb-8">FAQs</h1>
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+            {faqs.map((faq, index) => (
+              <div
+                key={index}
+                className="bg-slate-800/70 rounded-3xl shadow-lg overflow-hidden flex flex-col hover:scale-105 hover:shadow-xl hover:bg-purple-500/30 transition-transform transition-shadow duration-300"
+              >
+                <div className="p-6 flex items-center justify-center overflow-auto">
+                  <h2 className="text-lg sm:text-xl font-semibold text-green-400 text-left">
+                    {faq.question}
+                  </h2>
+                </div>
+                <div className="p-6 text-white flex items-start justify-center flex-1 overflow-auto">
+                  <p className="text-sm sm:text-base text-left">{faq.answer}</p>
+                </div>
               </div>
-              <div className="p-6 text-white flex items-start justify-center flex-1 overflow-auto">
-                <p className="text-sm sm:text-base text-left">{faq.answer}</p>
-              </div>
-            </div>
-          ))}
+            ))}
+          </div>
         </div>
+      </div>
+      <div className="flex justify-center">
+        <RegisterButton />
       </div>
     </div>
   );

@@ -1,3 +1,5 @@
+import RegisterButton from "./RegisterButton";
+
 const Timeline = () => {
   const events = [
     {
@@ -96,6 +98,7 @@ const Timeline = () => {
           </div>
         ))}
       </div>
+      <RegisterButton />
     </div>
   );
 };
