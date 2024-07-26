@@ -1,5 +1,5 @@
 // StarBackground.js
-import React, { useState, useRef, Suspense } from "react";
+import { useState, useRef, Suspense } from "react";
 import { Canvas, useFrame } from "@react-three/fiber";
 import { Points, PointMaterial } from "@react-three/drei";
 // @ts-ignore
@@ -12,6 +12,7 @@ const StarBackground = (props: any) => {
   );
 
   useFrame((state, delta) => {
+    console.log(state);
     ref.current.rotation.x -= delta / 10;
     ref.current.rotation.y -= delta / 15;
   });

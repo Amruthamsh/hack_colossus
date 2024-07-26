@@ -2,7 +2,6 @@ import React, { useEffect, useState } from "react";
 import hack_logo from "../assets/hackathon_logo.svg";
 import bg from "../assets/background.svg";
 import { FaClock } from "react-icons/fa";
-import StarsCanvas from "./StarBackground";
 
 // Define a type for the time left object
 type TimeLeft = {
