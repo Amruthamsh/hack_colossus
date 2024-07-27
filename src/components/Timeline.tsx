@@ -65,7 +65,7 @@ const Timeline = () => {
   ];
 
   return (
-    <div className="flex flex-col items-center pt-24" id="timeline">
+    <div className="flex flex-col items-center pt-24 px-4" id="timeline">
       <h1 className="text-center text-4xl font-bold text-white mb-6 ">
         Timeline
       </h1>

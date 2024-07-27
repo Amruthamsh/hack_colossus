@@ -56,7 +56,7 @@ const Footer = () => {
               strokeLinecap="round"
               strokeLinejoin="round"
               strokeWidth="2"
-              d="M17 20h5V9a2 2 0 00-2-2h-4l-4-4-4 4H4a2 2 0 00-2 2v11h5m0 0h6m-6 0V10h6v10z"
+              d="M8 7V3M16 7V3M3 13h18M5 21h14M10 17h4"
             />
           </svg>
           <div>

@@ -1,4 +1,4 @@
-import { FaInstagram, FaTumblr, FaLinkedin, FaYoutube } from "react-icons/fa";
+import { FaInstagram, FaLinkedin, FaYoutube, FaTwitter } from "react-icons/fa";
 
 const Contact = () => {
   return (
@@ -14,7 +14,7 @@ const Contact = () => {
 
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
             <div>
-              <h2 className="text-xl font-semibold mb-4">Phone</h2>
+              <h2 className="text-xl font-bold mb-4">Phone</h2>
               <p className="text-lg">
                 Varun <span className="text-green-400 ml-2">+919353228225</span>
               </p>
@@ -25,7 +25,7 @@ const Contact = () => {
             </div>
 
             <div>
-              <h2 className="text-xl font-semibold mb-4">Email</h2>
+              <h2 className="text-xl font-bold mb-4">Email</h2>
               <p className="text-lg">
                 <a
                   href="mailto:colossus@drait.edu.in"
@@ -45,7 +45,7 @@ const Contact = () => {
             </div>
 
             <div>
-              <h2 className="text-xl font-semibold mb-4">Social</h2>
+              <h2 className="text-xl font-bold mb-4">Social</h2>
               <div className="flex justify-start space-x-6 text-2xl ">
                 <a
                   href="https://www.instagram.com/hackcolossus/"
@@ -57,7 +57,7 @@ const Contact = () => {
                   href="https://x.com/hackcolossus"
                   className="text-green-400 hover:text-purple-600"
                 >
-                  <FaTumblr />
+                  <FaTwitter />
                 </a>
                 <a
                   href="https://www.linkedin.com/company/hackcolossus"

@@ -3,7 +3,7 @@ import bgcollege from "../assets/bgcollege.jpeg";
 const AboutPage = () => {
   return (
     <div className="container mx-auto px-4 pt-24" id="about">
-      <h1 className="text-4xl font-bold text-center mb-12">ABOUT US</h1>
+      <h1 className="text-4xl font-bold text-center mb-12">About Us</h1>
 
       <div className="flex justify-between mb-12">
         <div className="text-center">
