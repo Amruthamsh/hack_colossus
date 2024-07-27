@@ -71,7 +71,7 @@ const Hero: React.FC = () => {
           className="mx-auto mb-2"
         />
         <h1 className="text-6xl font-bold leading-tight mb-4 text-white">
-          HACK COLOSSUS
+          COLOSSUS
         </h1>
         <h3 className="text-3xl leading-tight text-white">
           Time To Create History !!

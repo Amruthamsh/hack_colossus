@@ -1,4 +1,4 @@
-import bgcollege from "../assets/bgcollege.jpeg";
+import collegePhoto from "../assets/collegeFinal.jpeg";
 
 const AboutPage = () => {
   return (
@@ -15,7 +15,7 @@ const AboutPage = () => {
           <p className="text-sm">APPLICATION RECEIVED</p>
         </div>
         <div className="text-center">
-          <h2 className="text-4xl font-bold">1000+</h2>
+          <h2 className="text-4xl font-bold">5000+</h2>
           <p className="text-sm">REACH ON SOCIAL MEDIA</p>
         </div>
       </div>
@@ -33,9 +33,9 @@ const AboutPage = () => {
             <span className="absolute -left-2 -top-3 text-5xl">•</span>
             <span>
               In collaboration with our esteemed tech clubs, GDSC Dr. AIT and
-              Nanogram, we bring together the brightest minds from across the
-              country to innovate and compete in both hardware and software
-              tracks.
+              Nanogram - The Tech Hub, we bring together the brightest minds
+              from across the country to innovate and compete in both hardware
+              and software tracks.
             </span>
           </li>
           <li className="relative pl-6">
@@ -58,7 +58,11 @@ const AboutPage = () => {
         </ul>
       </div>
 
-      <img src={bgcollege} alt="Hack Colossus Logo" />
+      <img
+        src={collegePhoto}
+        className="flex items-center justify-center w-full h-96 object-cover rounded-lg"
+        alt="Hack Colossus Logo"
+      />
     </div>
   );
 };
