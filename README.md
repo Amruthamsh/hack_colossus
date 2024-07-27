@@ -1,3 +1,33 @@
+# Hack Colossus
+
+## Main Website for Colossus - A 24 hour National Level Hackathon to be held at Dr. Ambedkar Institute of Technolody
+
+## Installation
+
+Clone the Repository: Start by cloning the repository to your local machine using the following command:
+
+git clone https://github.com/Amruthamsh/learning-app.git
+
+Navigate to the Project Directory
+
+cd hack_colossus
+
+## Setting up the Project Environment
+
+Ensure you have Node.js and npm installed on your system before running the installation command. You can download and install them from the official Node.js website: https://nodejs.org. (ignore if already installed)
+
+Install Dependencies: Install both regular dependencies and development dependencies using npm. This includes packages required for running the project and additional packages used for development purposes:
+
+```
+npm install
+```
+
+## Running the App
+
+```
+npm run dev 
+```
+
 # React + TypeScript + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
