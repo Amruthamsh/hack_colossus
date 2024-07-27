@@ -27,7 +27,7 @@ const TracksPage = () => {
       <h1 className="text-center text-4xl font-bold text-white mb-12">
         Submit your idea!
       </h1>
-      <div className="container mx-auto px-2">
+      <div className="container mx-auto px-4">
         <div className="grid gap-6 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
           {tracks.map((track, index) => (
             <div
