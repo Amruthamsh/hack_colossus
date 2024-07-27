@@ -10,7 +10,9 @@ git clone https://github.com/Amruthamsh/learning-app.git
 
 Navigate to the Project Directory
 
+```
 cd hack_colossus
+```
 
 ## Setting up the Project Environment
 
