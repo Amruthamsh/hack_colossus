@@ -60,7 +60,7 @@ const AboutPage = () => {
 
       <img
         src={collegePhoto}
-        className="w-full h-auto object-cover rounded-lg"
+        className="flex items-center justify-center w-full h-96 object-cover rounded-lg"
         alt="Hack Colossus Logo"
       />
     </div>

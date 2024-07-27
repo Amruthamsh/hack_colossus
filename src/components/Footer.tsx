@@ -1,7 +1,7 @@
 const Footer = () => {
   return (
     <footer className="bg-black py-12">
-      <div className="container mx-auto gap-6 flex sm:flex-col md:flex-col lg:flex-row justify-between space-y-6 lg:space-y-0">
+      <div className="container mx-auto flex flex-col lg:flex-row lg:justify-between space-y-6 lg:space-y-0">
         <div className="flex items-center text-white">
           <svg
             className="w-12 h-12 mr-3"
@@ -19,7 +19,7 @@ const Footer = () => {
           </svg>
           <div>
             <h2 className="text-2xl font-bold">Date</h2>
-            <p className="text-lg">30th and 31st Aug, 2024 | Friday-Saturday</p>
+            <p className="text-lg">30th and 31st Aug, 2024 | Fri-Sat</p>
           </div>
         </div>
 

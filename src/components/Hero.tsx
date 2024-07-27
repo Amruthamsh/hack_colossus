@@ -65,7 +65,11 @@ const Hero: React.FC = () => {
         )}
       </div>
       <div className="max-w-2xl mx-auto">
-        <img src={hack_logo} alt="Hack Colossus Logo" className="mx-auto" />
+        <img
+          src={hack_logo}
+          alt="Hack Colossus Logo"
+          className="mx-auto mb-2"
+        />
         <h1 className="text-6xl font-bold leading-tight mb-4 text-white">
           COLOSSUS
         </h1>

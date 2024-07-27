@@ -1,8 +1,8 @@
 import { useState } from "react";
 import { HashLink as Link } from "react-router-hash-link";
 import { IoMdClose } from "react-icons/io";
+import { HiOutlineMenuAlt3 } from "react-icons/hi";
 import { navLinks } from "@/constants";
-import { TfiAlignJustify } from "react-icons/tfi";
 // import DashboardButton from "./dashboardButton";
 
 const MobileNavbar = () => {
@@ -18,7 +18,7 @@ const MobileNavbar = () => {
           {isOpen ? (
             <IoMdClose className="h-6 w-6" />
           ) : (
-            <TfiAlignJustify className="h-6 w-6" />
+            <HiOutlineMenuAlt3 className="h-6 w-6" />
           )}
         </button>
       </div>
