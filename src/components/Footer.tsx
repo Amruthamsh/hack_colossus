@@ -19,7 +19,7 @@ const Footer = () => {
           </svg>
           <div>
             <h2 className="text-2xl font-bold">Date</h2>
-            <p className="text-lg">30th and 31st Aug, 2024 | Fri-Sat</p>
+            <p className="text-lg">30th and 31st Aug, 2024 | Friday-Saturday</p>
           </div>
         </div>
 
