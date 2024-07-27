@@ -22,7 +22,7 @@ const Faq = () => {
 
   return (
     <div id="faq">
-      <div className="flex items-center justify-center p-6 pt-24 sm:p-10 sm:pt-24 ">
+      <div className="flex items-center justify-center p-6 pt-24 ">
         <div className="w-full max-w-5xl text-white">
           <h1 className="text-center text-4xl font-bold mb-8">FAQs</h1>
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
@@ -45,7 +45,7 @@ const Faq = () => {
         </div>
       </div>
       <div className="flex justify-center">
-        <RegisterButton />
+        <RegisterButton name="Participate now!" />
       </div>
     </div>
   );

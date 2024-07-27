@@ -80,7 +80,7 @@ const Hero: React.FC = () => {
           <p className="text-xl font-bold text-teal-400">
             Prize Pool: Upto Rs. 1 Lakh
           </p>
-          <RegisterButton />
+          <RegisterButton name="Register Now" />
         </div>
       </div>
     </div>

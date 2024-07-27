@@ -24,14 +24,14 @@ const MobileNavbar = () => {
       </div>
 
       <div
-        className={`fixed top-28 flex w-full justify-center transition-transform duration-200 ${
+        className={`fixed top-20 flex w-full justify-center transition-transform duration-200 ${
           isOpen
             ? "z-[60] translate-y-0 mt-3"
             : "z-0 -translate-y-[30rem] -mt-1"
         } px-2 lg:hidden`}
       >
         <div
-          className={`justify-center" z-[60] w-full flex flex-col space-y-3 rounded-xl bg-teal-800/80 bg-clip-padding py-5 backdrop-blur-lg 
+          className={`justify-center" z-[60] w-full flex flex-col space-y-3 rounded-xl bg-teal-800/70 bg-clip-padding py-5 backdrop-blur-lg 
                backdrop-filter hover:border-white/40 lg:hidden 
             `}
         >

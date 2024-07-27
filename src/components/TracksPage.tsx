@@ -10,7 +10,7 @@ interface TrackBoxProps {
 const TracksPage: React.FC = () => {
   return (
     <div id="tracks">
-      <h1 className="text-center text-4xl font-bold text-white pt-20">
+      <h1 className="text-center text-4xl font-bold text-white pt-24">
         Sumbit your idea!
       </h1>
       <div className=" text-white pt-6 flex justify-center items-center ">
@@ -38,7 +38,7 @@ const TracksPage: React.FC = () => {
         </div>
       </div>
       <div className="flex justify-center">
-        <RegisterButton />
+        <RegisterButton name="Register and submit your idea!" />
       </div>
     </div>
   );

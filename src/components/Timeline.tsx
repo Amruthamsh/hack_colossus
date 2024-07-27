@@ -65,12 +65,9 @@ const Timeline = () => {
   ];
 
   return (
-    <div
-      className="flex flex-col items-center pt-20 sm:p-10 sm:pt-20"
-      id="timeline"
-    >
-      <h1 className="text-center text-3xl sm:text-4xl font-bold text-white mb-6 sm:mb-8 pt-8">
-        TIMELINE
+    <div className="flex flex-col items-center pt-24" id="timeline">
+      <h1 className="text-center text-4xl font-bold text-white mb-6 ">
+        Timeline
       </h1>
       <div className="w-full max-w-7xl grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
         {events.map((event, index) => (
@@ -98,7 +95,7 @@ const Timeline = () => {
           </div>
         ))}
       </div>
-      <RegisterButton />
+      <RegisterButton name="Register now!" />
     </div>
   );
 };
