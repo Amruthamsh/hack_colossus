@@ -36,7 +36,7 @@ const TracksPage = () => {
             >
               <div className="flex items-center mb-4">
                 <div className="flex items-center">
-                  <div className="w-10 h-10 md:w-12 md:h-12 rounded-full flex items-center justify-center text-lg md:text-xl font-bold bg-purple-700 border-2 border-black text-white">
+                  <div className="w-10 h-10 md:w-12 md:h-12 rounded-full flex items-center justify-center text-lg md:text-xl font-bold bg-purple-700 text-white">
                     {track.number}
                   </div>
                   <h2 className="ml-4 text-2xl font-bold text-white">

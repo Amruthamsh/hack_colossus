@@ -47,37 +47,56 @@ const Contact = () => {
             <div>
               <h2 className="text-xl font-bold mb-4">Social</h2>
               <div className="flex justify-start space-x-6 text-2xl ">
-                <a
-                  href="https://www.instagram.com/hackcolossus/"
+                <button
                   className="text-green-400 hover:text-purple-600"
+                  onClick={() =>
+                    window.open(
+                      "https://www.instagram.com/hackcolossus/",
+                      "_blank"
+                    )
+                  }
                 >
                   <FaInstagram />
-                </a>
-                <a
-                  href="https://x.com/hackcolossus"
+                </button>
+                <button
                   className="text-green-400 hover:text-purple-600"
+                  onClick={() =>
+                    window.open("https://x.com/hackcolossus", "_blank")
+                  }
                 >
                   <FaTwitter />
-                </a>
-                <a
-                  href="https://www.linkedin.com/company/hackcolossus"
+                </button>
+
+                <button
                   className="text-green-400 hover:text-purple-600"
+                  onClick={() =>
+                    window.open(
+                      "https://www.linkedin.com/company/hackcolossus",
+                      "_blank"
+                    )
+                  }
                 >
                   <FaLinkedin />
-                </a>
-                <a
-                  href="https://www.youtube.com/channel/UCP4VgBr2hBXLdGRY_kT6X-Q"
+                </button>
+
+                <button
                   className="text-green-400 hover:text-purple-600"
+                  onClick={() =>
+                    window.open(
+                      "https://www.youtube.com/channel/UCP4VgBr2hBXLdGRY_kT6X-Q",
+                      "_blank"
+                    )
+                  }
                 >
                   <FaYoutube />
-                </a>
+                </button>
               </div>
             </div>
           </div>
         </div>
       </div>
       <p className="flex items-center justify-center p-1">
-        Made with ❤️ By Hack-Colossus Team
+        Made with ❤️ by Colossus Team
       </p>
     </div>
   );

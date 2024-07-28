@@ -1,6 +1,5 @@
 import React, { useEffect, useState } from "react";
-import hack_logo from "../assets/hackathon_logo.svg";
-import { FaClock } from "react-icons/fa";
+import hack_logo from "../assets/hackathon_logo2.svg";
 import RegisterButton from "./RegisterButton";
 
 // Define a type for the time left object
@@ -45,27 +44,59 @@ const Hero: React.FC = () => {
       id="home"
     >
       <div className="mb-4 relative mt-24 z-10">
+        <h1 className="text-teal-400 text-2xl pt-4">Coming soon...</h1>
+        <h1 className="text-white text-3xl pt-2">
+          A 24 Hour National Level Hackathon
+        </h1>
         {Object.keys(timeLeft).length > 0 ? (
-          <h2 className="text-xl md:text-2xl mt-3 rounded-lg text-white font-bold bg-purple-900 inline-flex items-center mx-2 p-3 px-6">
-            <FaClock className="h-10 w-10 mr-2 text-white" />
-            {timeLeft.hasOwnProperty("days") &&
-              (timeLeft as TimeLeft).days}{" "}
-            days{" "}
-            {timeLeft.hasOwnProperty("hours") && (timeLeft as TimeLeft).hours}{" "}
-            hours{" "}
-            {timeLeft.hasOwnProperty("minutes") &&
-              (timeLeft as TimeLeft).minutes}{" "}
-            minutes{" "}
-            {timeLeft.hasOwnProperty("seconds") &&
-              (timeLeft as TimeLeft).seconds}{" "}
-            seconds remaining
-          </h2>
+          <div className="flex justify-center mt-3 space-x-4">
+            <div className="text-center">
+              <div className="bg-purple-900 text-white font-bold rounded-lg p-4 size-20">
+                <span className="text-4xl">
+                  {timeLeft.hasOwnProperty("days") &&
+                    (timeLeft as TimeLeft).days}
+                </span>
+              </div>
+              <span className="block mt-2 text-md text-teal-400">Days</span>
+            </div>
+            <div className="text-center">
+              <div className="bg-purple-900 text-white font-bold rounded-lg p-4 size-20">
+                <span className="text-4xl">
+                  {timeLeft.hasOwnProperty("hours") &&
+                    (timeLeft as TimeLeft).hours}
+                </span>
+              </div>
+              <span className="block mt-2 text-md text-teal-400">Hours</span>
+            </div>
+            <div className="text-center">
+              <div className="bg-purple-900 text-white font-bold rounded-lg p-4 size-20">
+                <span className="text-4xl">
+                  {timeLeft.hasOwnProperty("minutes") &&
+                    (timeLeft as TimeLeft).minutes}
+                </span>
+              </div>
+              <span className="block mt-2 text-md text-teal-400">Minutes</span>
+            </div>
+            <div className="text-center">
+              <div className="bg-purple-900 text-white font-bold rounded-lg p-4 size-20">
+                <span className="text-4xl">
+                  {timeLeft.hasOwnProperty("seconds") &&
+                    (timeLeft as TimeLeft).seconds}
+                </span>
+              </div>
+              <span className="block mt-2 text-md text-teal-400">Seconds</span>
+            </div>
+          </div>
         ) : (
           <h2 className="text-2xl text-white">Time's up!</h2>
         )}
       </div>
       <div className="max-w-2xl mx-auto">
-        <img src={hack_logo} alt="Hack Colossus Logo" className="mx-auto" />
+        <img
+          src={hack_logo}
+          alt="Hack Colossus Logo"
+          className="mx-auto size-96 h-auto mt-12 mb-4"
+        />
         <h1 className="text-6xl font-bold leading-tight mb-4 text-white">
           COLOSSUS
         </h1>
