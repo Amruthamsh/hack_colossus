@@ -97,9 +97,9 @@ const Hero: React.FC = () => {
         <img
           src={hack_logo}
           alt="Hack Colossus Logo"
-          className="mx-auto size-80 lg:size-96 h-auto mt-12 mb-4"
+          className="mx-auto w-72 lg:w-96 h-auto mt-12 mb-2"
         />
-        <h1 className="text-6xl font-bold leading-tight mb-4 text-white">
+        <h1 className="text-5xl lg:text-7xl font-bold leading-tight mb-4 text-white">
           COLOSSUS
         </h1>
         <h3 className="text-3xl leading-tight text-white">
