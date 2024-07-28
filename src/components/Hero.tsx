@@ -44,15 +44,17 @@ const Hero: React.FC = () => {
       id="home"
     >
       <div className="mb-4 relative mt-24 z-10">
-        <h1 className="text-teal-400 text-2xl pt-4">Coming soon...</h1>
-        <h1 className="text-white text-3xl pt-2">
+        <h1 className="text-teal-400 text-lg lg:text-2xl pt-4">
+          Coming soon...
+        </h1>
+        <h1 className="text-white text-xl lg:text-3xl pt-2">
           A 24 Hour National Level Hackathon
         </h1>
         {Object.keys(timeLeft).length > 0 ? (
           <div className="flex justify-center mt-3 space-x-4">
             <div className="text-center">
-              <div className="bg-purple-900 text-white font-bold rounded-lg p-4 size-20">
-                <span className="text-4xl">
+              <div className="bg-purple-900 text-white font-bold rounded-lg p-4 size-15 lg:size-20">
+                <span className="text-2xl lg:text-4xl">
                   {timeLeft.hasOwnProperty("days") &&
                     (timeLeft as TimeLeft).days}
                 </span>
@@ -60,8 +62,8 @@ const Hero: React.FC = () => {
               <span className="block mt-2 text-md text-teal-400">Days</span>
             </div>
             <div className="text-center">
-              <div className="bg-purple-900 text-white font-bold rounded-lg p-4 size-20">
-                <span className="text-4xl">
+              <div className="bg-purple-900 text-white font-bold rounded-lg p-4 size-15 lg:size-20">
+                <span className="text-2xl lg:text-4xl">
                   {timeLeft.hasOwnProperty("hours") &&
                     (timeLeft as TimeLeft).hours}
                 </span>
@@ -69,8 +71,8 @@ const Hero: React.FC = () => {
               <span className="block mt-2 text-md text-teal-400">Hours</span>
             </div>
             <div className="text-center">
-              <div className="bg-purple-900 text-white font-bold rounded-lg p-4 size-20">
-                <span className="text-4xl">
+              <div className="bg-purple-900 text-white font-bold rounded-lg p-4 size-15 lg:size-20">
+                <span className="text-2xl lg:text-4xl">
                   {timeLeft.hasOwnProperty("minutes") &&
                     (timeLeft as TimeLeft).minutes}
                 </span>
@@ -78,8 +80,8 @@ const Hero: React.FC = () => {
               <span className="block mt-2 text-md text-teal-400">Minutes</span>
             </div>
             <div className="text-center">
-              <div className="bg-purple-900 text-white font-bold rounded-lg p-4 size-20">
-                <span className="text-4xl">
+              <div className="bg-purple-900 text-white font-bold rounded-lg p-4 size-15 lg:size-20">
+                <span className="text-2xl lg:text-4xl">
                   {timeLeft.hasOwnProperty("seconds") &&
                     (timeLeft as TimeLeft).seconds}
                 </span>
@@ -95,7 +97,7 @@ const Hero: React.FC = () => {
         <img
           src={hack_logo}
           alt="Hack Colossus Logo"
-          className="mx-auto size-96 h-auto mt-12 mb-4"
+          className="mx-auto size-80 lg:size-96 h-auto mt-12 mb-4"
         />
         <h1 className="text-6xl font-bold leading-tight mb-4 text-white">
           COLOSSUS
