@@ -47,7 +47,7 @@ const Hero: React.FC = () => {
         <h1 className="text-teal-400 text-lg lg:text-2xl pt-4">
           Coming soon...
         </h1>
-        <h1 className="text-white text-xl lg:text-3xl pt-2">
+        <h1 className="text-white text-xl lg:text-3xl pt-2 text-nowrap">
           A 24 Hour National Level Hackathon
         </h1>
         {Object.keys(timeLeft).length > 0 ? (
