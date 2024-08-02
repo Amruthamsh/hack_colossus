@@ -1,14 +1,13 @@
 // App.js
 import { BrowserRouter as Router } from "react-router-dom";
 import Navbar from "./components/Navbar";
-import Hero from "./components/Hero";
-import Footer from "./components/Footer";
-import AboutPage from "./components/AboutPage"; // Import the AboutPage component
-import TracksPage from "./components/TracksPage";
-import Timeline from "./components/Timeline";
-import Contact from "./components/Contact";
-import Faq from "./components/Faq";
-import Sponsors from "./components/Sponsors";
+import Hero from "./components/Sections/Hero";
+import AboutPage from "./components/Sections/AboutUs"; // Import the AboutPage component
+import TracksPage from "./components/Sections/TracksPage";
+import Timeline from "./components/Sections/Timeline";
+import Footer from "./components/Sections/Footer";
+import Faq from "./components/Sections/Faq";
+import Sponsors from "./components/Sections/Sponsors";
 import StarsCanvas from "./components/StarBackground";
 import BackToTopButton from "./components/BackToTopButton";
 import ProgressBar from "./components/ProgressBar";
@@ -16,7 +15,7 @@ import ProgressBar from "./components/ProgressBar";
 const App = () => {
   return (
     <Router>
-      <div className="min-h-screen bg-gradient-to-br from-black to-purple-950 text-white relative z-10">
+      <div className="min-h-screen bg-black text-white relative z-10">
         <StarsCanvas />
         <ProgressBar />
         <div className="relative z-20">
@@ -28,7 +27,6 @@ const App = () => {
           <Sponsors />
           <Faq />
           <Footer />
-          <Contact />
           <BackToTopButton />
         </div>
       </div>

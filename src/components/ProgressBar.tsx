@@ -18,9 +18,9 @@ const ProgressBar = () => {
   }, []);
 
   return (
-    <div className="fixed top-20 left-0 w-full bg-teal-700 h-2 z-50">
+    <div className="fixed top-12 sm:top-16 left-0 w-full bg-teal-700 h-1 sm:h-1.5 z-50">
       <div
-        className="h-full bg-pink-700 transition-all duration-300"
+        className="h-full bg-purple-500 transition-all duration-300"
         style={{ width: `${scrollPosition}%` }}
       ></div>
     </div>

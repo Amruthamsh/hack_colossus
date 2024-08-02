@@ -1,4 +1,4 @@
-import RegisterButton from "./RegisterButton";
+import RegisterButton from ".././RegisterButton";
 
 const Faq = () => {
   const faqs = [
