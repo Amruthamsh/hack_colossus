@@ -2,6 +2,8 @@
 
 ## Main Website for Colossus - A 24 hour National Level Hackathon held at Dr. Ambedkar Institute of Technolody
 
+Link to the Latest Deployment: https://hackcolossus.tech/
+
 ## Installation
 
 Clone the Repository: Start by cloning the repository to your local machine using the following command:
